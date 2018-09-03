@@ -1,0 +1,17 @@
+# conda env create|update --file environment.yml
+name: neue-fische
+dependencies:
+- python=3.6
+- pip
+- flake8
+- jupyter
+- matplotlib
+- numpy
+- pandas
+- pytest
+- scipy
+- seaborn
+- pip:
+  - '--editable=.'
+  - flake8-quotes
+  - sklearn
